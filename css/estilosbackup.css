@@ -1,0 +1,82 @@
+/*
+esto es un comentario multilinea en css
+css: hojas de estilos en cascadas
+
+su sintaxis 
+selector{
+    propiedad: valor 
+    propiedad: valor
+    n....
+}
+Selectores:
+etiqueta: el selector menos especifico
+class: el selector de clase, es mas especifico que el de etiqueta y me ayuda a clasificar distintos elementos 
+de html y aplicarles el mismo estilo, llamo al selector de class a traves del punto(.) 
+id: el selector mas especifico, porque puedo poner un mismo id a un unico elemento, No puedo repetir los nombres
+de los id, los id se los llama por la #
+
+
+cammel case: se empieza en minuscula todo pegado cada palabla siquiente empieza con mayuscula ej: amarilloAzulGris
+
+*/    
+*{
+    margin: 0;
+    padding: 0;
+}
+.header1.linkNav{
+    background-color: aliceblue;
+    height: 20vh;
+    width: 20vh;
+    
+}
+.logo{
+    height: 200px;
+    width: 200px;
+    margin-top: 0;
+    border-top: 0;
+
+}
+
+.listaNav{
+    list-style: none;
+    
+
+    
+}
+
+.listaNav li{
+    display: inline;
+}
+
+.linkNav{
+    text-decoration: none;
+    display: inline;
+    color: green;
+}
+
+.galeria1{
+
+    width: 90%;
+   margin: 0 auto;
+    flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  row-gap: 100px;
+  display: flexbox;
+
+
+    
+}
+
+.hijo{
+    width: 800px;
+    height: 800px;
+    
+}
+
+.hijo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
