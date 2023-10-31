@@ -61,8 +61,18 @@ background-color: white;
     text-decoration: none;
 }
 
-.textColorWhite{
-    color: white;
+.pContacto{
+    color: green;
+    font-style: oblique;
+    font-size: calc(2em,5vw,5em);
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
+.mapa{
+    
+    margin-top: 100px;
+    margin-bottom: 100px;
+    object-fit: fill;
+}
 
