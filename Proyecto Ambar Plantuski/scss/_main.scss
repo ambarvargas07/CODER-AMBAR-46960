@@ -1,0 +1,51 @@
+.imgCabecera{
+
+    height: 50vh;
+    object-fit:fill;
+}
+.h1Inicio{
+
+   
+    margin-top: $tamanio-100px;
+    margin-bottom: $tamanio-100px ;
+    color: $color-dark-green;
+    font-style: oblique;
+    font-size: 3.5vw;
+    
+    
+    
+    
+}
+
+
+.h2NombresYPrecios{
+
+    color: $color-dark-green;
+    font-style: oblique;
+
+    
+}
+.anclaPrecios{
+    text-decoration: none;
+}
+
+.pContacto{
+    color: $color-dark-green;
+    font-style: oblique;
+    font-size: 3.5vw;
+    margin-top: $tamanio-100px;
+    margin-bottom: $tamanio-100px;
+}
+
+.mapa{
+    
+    margin-top: $tamanio-100px;
+    margin-bottom: $tamanio-100px;
+    object-fit: fill;
+}
+
+@media (max-width: 200px) and (max-heigth: 160px) {
+    .h1Inicio {
+        font-size: 3.5vw;
+    }
+}
