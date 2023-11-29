@@ -97,3 +97,16 @@ background-color: white;
     object-fit: fill;
 }
 
+.wrapper{
+    margin: 150px auto;
+    width: 70%;
+}
+.imgError404{
+    height: 60vh;
+    width: 60vh;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    object-fit: fill;
+    max-width: 300px;
+     float: left;
+}
